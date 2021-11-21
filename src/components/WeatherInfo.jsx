@@ -18,20 +18,7 @@ export const WeatherInfo = ({tempinfo}) => {
     let date= new Date(sec*1000);
     let timeStr=`${date.getHours()}:${date.getMinutes()}`;
 
-    // useEffect(() => {
-    //     if (mood){
-    //         switch (mood){
-    //             case 'clouds':
-    //                 setweatherPic('WiCloud')
-    //                 break;
-    //             case 'rain':
-    //                 setweatherPic('WiRain')
-    //                 break;
-    //             default:
-    //                 setweatherPic('WiDaySunny')    
-    //         }
-    //     }
-    // }, [mood])
+    
 
     return (
         <div>
