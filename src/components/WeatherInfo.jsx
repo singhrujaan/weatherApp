@@ -9,7 +9,6 @@ import { WiCloudUp } from "weather-icons-react";
 import { WiStrongWind } from "weather-icons-react";
 
 export const WeatherInfo = ({tempinfo}) => {
-    const [weatherPic, setweatherPic] = useState('WiDaySunny')
     const {
         mood,temp,humidity,pressure,speed,name,country,sunset
     }=tempinfo
